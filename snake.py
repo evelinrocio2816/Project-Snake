@@ -2,8 +2,9 @@ import pygame, sys, time, random
 
 pygame.init()
 
-play_surface = pygame.display.set_mode((500, 500))
 
+play_surface = pygame.display.set_mode((500, 500))
+pygame.display.set_caption('Snake Game')
 font = pygame.font.Font(None, 30)
 
 fps = pygame.time.Clock()
